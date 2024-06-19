@@ -1,0 +1,66 @@
+/*Site*/
+body {
+
+    /*Fonte*/
+    font-family: Helvetica;
+    /*Alinhamento de Texto*/
+    text-align: center;
+    /*Cor*/
+    color: #fff;
+    /*Cor de Fundo*/
+    background-color: #333;
+    /*Espaçamentos*/
+    padding: 0;
+    margin: 0;
+}
+
+/*Barra de Navegação*/
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #666;
+
+}
+/*Lista da Barra de Navegação*/
+nav ul {
+
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+}
+/*Links da Lista*/
+ul li {
+
+    margin-right: 10px;
+    
+}
+/*Links*/
+ul li a {
+
+    color: #fff;
+}
+
+/*Titulos*/
+h1 {
+
+    font-size: 32px;
+
+}
+
+/*Imagen*/
+img {
+
+    border: 5px solid rgb(134, 221, 255);
+
+}
+
+/*Rodape*/
+footer {
+
+    padding: 15px;
+    border-top: 1px solid #666;
+    margin-top: 20px;
+}
